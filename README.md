@@ -1,4 +1,4 @@
-# Mock E-Com Cart — Assignment Submission  
+# Nexora E-Com Cart — Assignment Submission  
 **Name:** Bhavish B K  
 **Course:** B.Tech CSE — Srinivas University Institute of Engineering & Technology, Mangalore  
 **Technology Used:** MERN Stack (MongoDB, Express.js, React.js, Node.js)  
