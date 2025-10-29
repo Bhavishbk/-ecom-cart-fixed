@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  color: #fff;
+  background: #111;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  display: flex;
+}
+
+.logo {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.container {
+  padding: 20px;
+}
+
+.grid {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  display: grid;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+button {
+  margin: 6px;
+  padding: 8px 12px;
+}
+
+.cart-item {
+  border-bottom: 1px solid #eee;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  display: flex;
+}
+
+.checkout-form input {
+  margin: 8px 0;
+  padding: 8px;
+  display: block;
+}
+
+.modal {
+  background: #00000080;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  inset: 0;
+}
+
+.modal-content {
+  background: #fff;
+  border-radius: 8px;
+  min-width: 280px;
+  padding: 20px;
+}
+
+@media (width <= 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+/*# sourceMappingURL=public.d91c94e1.css.map */
